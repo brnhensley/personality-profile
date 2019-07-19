@@ -33,7 +33,7 @@
   2.  Collect and analyze tweets of all users who retweet or favorite a specific user, return personality profile of the average 'fan' of that user.
   3.  ...Profit?
 
-What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+* What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
   1.  Mostly just diving deeper into those API calls.
   2.  Twitter user login to get a profile of their followers
