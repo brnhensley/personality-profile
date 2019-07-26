@@ -14,4 +14,6 @@ function Watson() {
   );
 }
 
+// add conditional for once the API calls succeed
+
 export default Watson;
