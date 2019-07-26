@@ -4,8 +4,7 @@ function Footer() {
 
   return (
     <div>
-      <h3>FOOTER
-      8======D~~~~~</h3>
+      <h3>FOOTER</h3>
     </div>
   );
 }
