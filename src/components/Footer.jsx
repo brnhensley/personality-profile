@@ -19,8 +19,12 @@ function Footer() {
           padding: 2%;
           border-radius: 25px;
         }
+        p {
+          color: lightgrey;
+          font-size: 5px;
+        }
       `}</style>
-      <h3>FOOTER</h3>
+      <p>© 2019 Brian Hensley</p>
     </div>
   );
 }
