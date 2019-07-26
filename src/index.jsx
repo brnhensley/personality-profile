@@ -1,31 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import rootReducer from './reducers/index';
-import { AppContainer } from 'react-hot-loader';
-import { HashRouter } from 'react-router-dom';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
-import App from './App';
+import App from './components/App'
+import * as serviceWorker from './serviceWorker';
 
-const store = createStore(rootReducer);
+ReactDOM.render(<App />, document.getElementById('root'));
 
-const render = (Component) => {
-  ReactDOM.render(
-    <HashRouter>
-      <Provider store={store}>
-        <Component />
-      </Provider>
-    </HashRouter>,
-    document.getElementById('react-app-root')
-  );
-};
+serviceWorker.unregister();
 
-render(App);
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import rootReducer from './reducers/index';
+// import { HashRouter } from 'react-router-dom';
+// import App from './components/App';
 
-/*eslint-disable */
-if (module.hot) {
-  module.hot.accept('./components/App', () => {
-    render(App);
-  });
-}
-/*eslint-enable */
+// // const store = createStore(rootReducer);
+
+// const render = (Component) => {
+//   ReactDOM.render(
+//     <div>
+//       <HashRouter>
+//         <Component />
+//       </HashRouter>
+//     </div>,
+//     document.getElementById('react-app-root')
+//   );
+// };
+
+// render(App);
