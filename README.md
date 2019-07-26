@@ -1,6 +1,6 @@
 # _Personality Profile_
 
-#### _A webapp that takes Twitter information and returns personality profiles based on that, 7-19-19_
+#### _A webapp that takes Twitter information and returns personality profiles based on that, 7-26-19_
 
 #### _By Brian Hensley_
 
