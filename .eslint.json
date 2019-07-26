@@ -1,0 +1,46 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": ["error", 2],
+        "linebreak-style": ["error", "unix"],
+        "no-console": 0,
+        "no-case-declarations": 1,
+        "quotes": ["error", "single"],
+        "react/jsx-closing-bracket-location": 1,
+        "react/jsx-closing-tag-location": 1,
+        "react/jsx-key": 2,
+        "react/jsx-handler-names": 2,
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-indent-props": ["error", 2],
+        "react/jsx-no-duplicate-props": 2,
+        "react/jsx-no-undef": 2,
+        "react/jsx-pascal-case": 2,
+        "react/jsx-uses-vars": 2,
+        "react/jsx-uses-react": 2,
+        "react/no-direct-mutation-state": 2,
+        "react/no-multi-comp": 2,
+        "react/no-typos": 2,
+        "react/no-unused-state": 1,
+        "react/prefer-es6-class": [2, "always"],
+        "react/prefer-stateless-function": 2,
+        "react/prop-types": 2,
+        "react/require-render-return": 2,
+        "react/self-closing-comp": ["error", {"component": true, "html": true}],
+        "react/sort-comp": 1,
+        "semi": ["error", "always"]
+    }
+}
