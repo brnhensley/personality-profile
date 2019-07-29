@@ -1,5 +1,6 @@
 import React from 'react';
 import sample from './../sample.json'
+import TwitterInput from './TwitterInput.jsx';
 
 function Twitter() {
   console.log(sample);
@@ -35,6 +36,7 @@ function Twitter() {
 
   return (
     <div>
+      <TwitterInput />
       <h2>Tweets by @{sample[0].user.name}</h2>
       <ul>
         {tweetHTML}
