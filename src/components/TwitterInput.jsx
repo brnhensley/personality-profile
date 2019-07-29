@@ -11,21 +11,19 @@ function TwitterInput({dispatch}) {
 
 
 
-  function twitterCall(event) {
-    event.preventDefault();
-    if (!input.value.trim()) {
-      return;
-    }
-    return fetch('https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=' + _twitterHandle + &count=200&exclude_replies=true&include_rts=false')
+  // function twitterCall(event) {
+  //   event.preventDefault();
+  //   if (!input.value.trim()) {
+  //     return;
+  //   }
+  //   return fetch('https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=' + _twitterHandle + &count=200&exclude_replies=true&include_rts=false')
 
-    // make api call with _twitterHandle.value.trim()
-  }
+  //   // make api call with _twitterHandle.value.trim()
+  // }
 
   return (
     <div>
-      <form onSubmit="twitterCall"
-
-      >
+      <form onSubmit="twitterCall">
         <input
           id='twitterHandle'
           placeholder='Enter a Twitter handle'>
