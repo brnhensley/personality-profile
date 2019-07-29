@@ -1,6 +1,5 @@
 import React from 'react';
-import sample from './../sample.json';
-import TwitterInput from './TwitterInput.jsx';
+import sample from './../sample.json'
 
 function Twitter() {
   console.log(sample);
@@ -17,8 +16,6 @@ function Twitter() {
     tweetText.push(tweet.text);
   });
 
-  // add search name as JSON object key?
-
   // Finds index of https link and cuts it off before creating master tweetText
   // tweetText.push(tweet.text.slice(0, tweet.text.indexOf('https://')).trim());
 
@@ -29,7 +26,6 @@ function Twitter() {
       wordArray.push(word)
     }
   });
-
   //this works, but a lot of punctuation makes it in
   wordArray.sort();
   tweetText = wordArray.join(' ')
@@ -39,8 +35,7 @@ function Twitter() {
 
   return (
     <div>
-      <TwitterInput />
-      <h3>Tweets by @{sample[0].user.name}</h3>
+      <h2>Twitter comp here makes API call</h2>
       <ul>
         {tweetHTML}
       </ul>
