@@ -1,5 +1,503 @@
 [
   {
+    "created_at": "Sun Jul 28 22:05:05 +0000 2019",
+    "id": 1155600088485568513,
+    "id_str": "1155600088485568513",
+    "text": "Your Lords and Masters slaying @Chaos_Alberta last Friday. Where will you worship us in the near future??? #GWAR https:\/\/t.co\/tNJfiNAEVK",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "GWAR",
+          "indices": [
+            107,
+            112
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Chaos_Alberta",
+          "name": "CHAOS AB",
+          "id": 1090304931121160192,
+          "id_str": "1090304931121160192",
+          "indices": [
+            31,
+            45
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1155600086459650048,
+          "id_str": "1155600086459650048",
+          "indices": [
+            113,
+            136
+          ],
+          "media_url": "http:\/\/pbs.twimg.com\/media\/EAmEJ-_WkAACSpF.jpg",
+          "media_url_https": "https:\/\/pbs.twimg.com\/media\/EAmEJ-_WkAACSpF.jpg",
+          "url": "https:\/\/t.co\/tNJfiNAEVK",
+          "display_url": "pic.twitter.com\/tNJfiNAEVK",
+          "expanded_url": "https:\/\/twitter.com\/gwar\/status\/1155600088485568513\/photo\/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1152,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 383,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 675,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1155600086459650048,
+          "id_str": "1155600086459650048",
+          "indices": [
+            113,
+            136
+          ],
+          "media_url": "http:\/\/pbs.twimg.com\/media\/EAmEJ-_WkAACSpF.jpg",
+          "media_url_https": "https:\/\/pbs.twimg.com\/media\/EAmEJ-_WkAACSpF.jpg",
+          "url": "https:\/\/t.co\/tNJfiNAEVK",
+          "display_url": "pic.twitter.com\/tNJfiNAEVK",
+          "expanded_url": "https:\/\/twitter.com\/gwar\/status\/1155600088485568513\/photo\/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1152,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 383,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 675,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1155600086547783680,
+          "id_str": "1155600086547783680",
+          "indices": [
+            113,
+            136
+          ],
+          "media_url": "http:\/\/pbs.twimg.com\/media\/EAmEJ_UXYAAMbrV.jpg",
+          "media_url_https": "https:\/\/pbs.twimg.com\/media\/EAmEJ_UXYAAMbrV.jpg",
+          "url": "https:\/\/t.co\/tNJfiNAEVK",
+          "display_url": "pic.twitter.com\/tNJfiNAEVK",
+          "expanded_url": "https:\/\/twitter.com\/gwar\/status\/1155600088485568513\/photo\/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1152,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 675,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 383,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1155600086602256384,
+          "id_str": "1155600086602256384",
+          "indices": [
+            113,
+            136
+          ],
+          "media_url": "http:\/\/pbs.twimg.com\/media\/EAmEJ_hWkAA-pM0.jpg",
+          "media_url_https": "https:\/\/pbs.twimg.com\/media\/EAmEJ_hWkAA-pM0.jpg",
+          "url": "https:\/\/t.co\/tNJfiNAEVK",
+          "display_url": "pic.twitter.com\/tNJfiNAEVK",
+          "expanded_url": "https:\/\/twitter.com\/gwar\/status\/1155600088485568513\/photo\/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 675,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 383,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1152,
+              "h": 2048,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1155600086468112384,
+          "id_str": "1155600086468112384",
+          "indices": [
+            113,
+            136
+          ],
+          "media_url": "http:\/\/pbs.twimg.com\/media\/EAmEJ_BXsAAxwim.jpg",
+          "media_url_https": "https:\/\/pbs.twimg.com\/media\/EAmEJ_BXsAAxwim.jpg",
+          "url": "https:\/\/t.co\/tNJfiNAEVK",
+          "display_url": "pic.twitter.com\/tNJfiNAEVK",
+          "expanded_url": "https:\/\/twitter.com\/gwar\/status\/1155600088485568513\/photo\/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1152,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 675,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 383,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https:\/\/www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.<\/a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 757543165,
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 18,
+    "favorite_count": 129,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sun Jul 28 19:07:44 +0000 2019",
+    "id": 1155555455826948096,
+    "id_str": "1155555455826948096",
+    "text": "JiZMak da Gusha hitting the drums in the same way we'll be hitting you on your head next time. With full force!… https:\/\/t.co\/vDJ873jQla",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https:\/\/t.co\/vDJ873jQla",
+          "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1155555455826948096",
+          "display_url": "twitter.com\/i\/web\/status\/1…",
+          "indices": [
+            113,
+            136
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https:\/\/studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio<\/a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 757543165,
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 9,
+    "favorite_count": 54,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sun Jul 28 16:17:00 +0000 2019",
+    "id": 1155512488332414978,
+    "id_str": "1155512488332414978",
+    "text": "\"This will mainly appeal to people familiar with GWAR who have also seen the trailer for Yesterday, about a man who… https:\/\/t.co\/We3Uc20ZGC",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https:\/\/t.co\/We3Uc20ZGC",
+          "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1155512488332414978",
+          "display_url": "twitter.com\/i\/web\/status\/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https:\/\/studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio<\/a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 757543165,
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 30,
+    "favorite_count": 115,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
     "created_at": "Fri Jul 26 20:07:00 +0000 2019",
     "id": 1154845594072076288,
     "id_str": "1154845594072076288",
@@ -40,15 +538,72 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 6,
-    "favorite_count": 23,
+    "retweet_count": 13,
+    "favorite_count": 45,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -84,15 +639,72 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 7,
-    "favorite_count": 32,
+    "retweet_count": 11,
+    "favorite_count": 47,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -139,15 +751,72 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 8,
-    "favorite_count": 39,
+    "retweet_count": 9,
+    "favorite_count": 40,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -191,7 +860,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -199,7 +925,7 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 6,
-    "favorite_count": 47,
+    "favorite_count": 48,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -246,7 +972,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -301,7 +1084,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -345,15 +1185,72 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 11,
-    "favorite_count": 52,
+    "retweet_count": 14,
+    "favorite_count": 54,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -465,7 +1362,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -473,7 +1427,7 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 18,
-    "favorite_count": 136,
+    "favorite_count": 137,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -630,15 +1584,72 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 60,
-    "favorite_count": 291,
+    "retweet_count": 61,
+    "favorite_count": 292,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -685,7 +1696,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -854,7 +1922,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -898,7 +2023,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -953,7 +2135,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -997,7 +2236,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1178,7 +2474,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1222,7 +2575,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1261,15 +2671,72 @@
       "in_reply_to_screen_name": null,
       "user": {
         "id": 3260518932,
-        "id_str": "3260518932"
+        "id_str": "3260518932",
+        "name": "Twitter Moments",
+        "screen_name": "TwitterMoments",
+        "location": "New York, USA",
+        "description": "The best of what’s happening on Twitter in an instant.",
+        "url": "https:\/\/t.co\/nYOx6qThjk",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https:\/\/t.co\/nYOx6qThjk",
+                "expanded_url": "https:\/\/about.twitter.com\/company\/moments-guidelines",
+                "display_url": "about.twitter.com\/company\/moment…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 708594,
+        "friends_count": 10,
+        "listed_count": 4524,
+        "created_at": "Tue Jun 30 01:06:59 +0000 2015",
+        "favourites_count": 147,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 63262,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/651463624330907648\/OzaAcuSR_normal.png",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/651463624330907648\/OzaAcuSR_normal.png",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3260518932\/1444135144",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
       },
       "geo": null,
       "coordinates": null,
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 9387,
-      "favorite_count": 44787,
+      "retweet_count": 9368,
+      "favorite_count": 44744,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
@@ -1312,7 +2779,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1370,7 +2894,51 @@
       "in_reply_to_screen_name": null,
       "user": {
         "id": 191049106,
-        "id_str": "191049106"
+        "id_str": "191049106",
+        "name": "jon orrenmaa",
+        "screen_name": "orrenmaa_boss",
+        "location": "Ohio, USA",
+        "description": "The Greatest Mind Ever Gone To Waste",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 29,
+        "friends_count": 12,
+        "listed_count": 3,
+        "created_at": "Wed Sep 15 13:57:24 +0000 2010",
+        "favourites_count": 1186,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1256,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1065685485262069760\/fTWBcD3L_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1065685485262069760\/fTWBcD3L_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/191049106\/1542914092",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
       },
       "geo": null,
       "coordinates": null,
@@ -1429,7 +2997,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1484,7 +3109,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1528,7 +3210,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1570,7 +3309,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1613,7 +3409,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1743,7 +3596,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1787,7 +3697,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1831,7 +3798,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1875,7 +3899,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1919,7 +4000,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -1958,7 +4096,64 @@
       "in_reply_to_screen_name": null,
       "user": {
         "id": 16973333,
-        "id_str": "16973333"
+        "id_str": "16973333",
+        "name": "The Independent",
+        "screen_name": "Independent",
+        "location": "London, England",
+        "description": "News, comment and features from The Independent",
+        "url": "https:\/\/t.co\/ENon5VCZ03",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https:\/\/t.co\/ENon5VCZ03",
+                "expanded_url": "http:\/\/independent.co.uk",
+                "display_url": "independent.co.uk",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2808114,
+        "friends_count": 1189,
+        "listed_count": 23243,
+        "created_at": "Sun Oct 26 00:00:29 +0000 2008",
+        "favourites_count": 21,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 881417,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": true,
+        "profile_background_color": "EBEBEB",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1148561910134202369\/DRu4DQGV_normal.png",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1148561910134202369\/DRu4DQGV_normal.png",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/16973333\/1549384292",
+        "profile_link_color": "FC051A",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
       },
       "geo": null,
       "coordinates": null,
@@ -2009,7 +4204,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -2053,7 +4305,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -2130,7 +4439,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -2195,7 +4561,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -2293,7 +4716,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -2401,7 +4881,64 @@
     "in_reply_to_screen_name": null,
     "user": {
       "id": 757543165,
-      "id_str": "757543165"
+      "id_str": "757543165",
+      "name": "GWAR",
+      "screen_name": "gwar",
+      "location": "Antarctica",
+      "description": "Scumdogs of the Universe. We make music and mayhem better and deadlier than anything that has ever existed. Use Your Collusion tour Fall 2019! #GWAR 👇🏼",
+      "url": "https:\/\/t.co\/KGeVTAsiKV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/KGeVTAsiKV",
+              "expanded_url": "http:\/\/www.gwar.net\/tour",
+              "display_url": "gwar.net\/tour",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26178,
+      "friends_count": 83,
+      "listed_count": 189,
+      "created_at": "Tue Aug 14 17:23:18 +0000 2012",
+      "favourites_count": 23391,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 3005,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1143568381691301888\/pKLaBA9B_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/757543165\/1561482903",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
     },
     "geo": null,
     "coordinates": null,
@@ -2413,143 +4950,6 @@
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Thu Jun 27 22:04:00 +0000 2019",
-    "id": 1144365790415720450,
-    "id_str": "1144365790415720450",
-    "text": "Tickets for the Use Your Collusion tour go on sale tomorrow, Friday June 28, at 10am. Rumor has it some destruction… https:\/\/t.co\/ep8nNtgBQs",
-    "truncated": true,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [],
-      "urls": [
-        {
-          "url": "https:\/\/t.co\/ep8nNtgBQs",
-          "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1144365790415720450",
-          "display_url": "twitter.com\/i\/web\/status\/1…",
-          "indices": [
-            117,
-            140
-          ]
-        }
-      ]
-    },
-    "source": "<a href=\"https:\/\/studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio<\/a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": {
-      "id": 757543165,
-      "id_str": "757543165"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 13,
-    "favorite_count": 85,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Thu Jun 27 14:04:00 +0000 2019",
-    "id": 1144244994238115843,
-    "id_str": "1144244994238115843",
-    "text": "Look at all these filthy bohabs getting covered in blood, semen and other bodily fluids... 2012, GWAR B-Q. #GWAR… https:\/\/t.co\/KpoLBO0ajh",
-    "truncated": true,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "GWAR",
-          "indices": [
-            107,
-            112
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [],
-      "urls": [
-        {
-          "url": "https:\/\/t.co\/KpoLBO0ajh",
-          "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1144244994238115843",
-          "display_url": "twitter.com\/i\/web\/status\/1…",
-          "indices": [
-            114,
-            137
-          ]
-        }
-      ]
-    },
-    "source": "<a href=\"https:\/\/studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio<\/a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": {
-      "id": 757543165,
-      "id_str": "757543165"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 5,
-    "favorite_count": 55,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Thu Jun 27 03:49:35 +0000 2019",
-    "id": 1144090371619581952,
-    "id_str": "1144090371619581952",
-    "text": "What city close to you are we destroying for our Use Your Collision tour? Wrong answers only! #GWAR",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "GWAR",
-          "indices": [
-            94,
-            99
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [],
-      "urls": []
-    },
-    "source": "<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": {
-      "id": 757543165,
-      "id_str": "757543165"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 13,
-    "favorite_count": 101,
-    "favorited": false,
-    "retweeted": false,
     "lang": "en"
   }
 ]
