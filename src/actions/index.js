@@ -9,14 +9,12 @@ const middlewares = [thunk];
 
 createStore(rootReducer, initialState, applyMiddleware(...middlewares));
 
-
-
 var options = {
   method: 'GET',
   url: 'https://api.twitter.com/1.1/statuses/user_timeline.json',
   qs:
   {
-    screen_name: _twitterHandle,
+    screen_name: 'gwar',
     count: '200',
     exclude_replies: 'true',
     include_rts: 'false'
