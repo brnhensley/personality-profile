@@ -35,13 +35,12 @@ function Twitter() {
 
   return (
     <div>
-      <h2>Twitter comp here makes API call</h2>
+      <h2>Tweets by @{sample[0].user.name}</h2>
       <ul>
         {tweetHTML}
       </ul>
     </div>
   );
-
 }
 
 export default Twitter;
