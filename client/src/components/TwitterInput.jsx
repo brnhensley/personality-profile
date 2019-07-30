@@ -19,7 +19,7 @@ class TwitterInput extends React.Component {
   }
 
   componentDidMount() {
-    this.callTwitterAPI('gwar');
+    this.callTwitterAPI();
   }
 
   render() {
