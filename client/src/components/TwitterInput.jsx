@@ -6,12 +6,11 @@ class TwitterInput extends React.Component {
     super(props);
     this.state = {
       twitterResponse: [],
-      twitterHandle: ""
+      twitterHandle: "gwar"
     };
   }
 
-  callTwitterAPI(userInput) {
-    this.setState({ twitterHandle: userInput})
+  callTwitterAPI() {
     fetch("http://localhost:9000/twitterAPI")
       .then(res => res.text())
       .then(res => this.setState({ twitterResponse: res }));
@@ -31,7 +30,7 @@ class TwitterInput extends React.Component {
             type='text'
             id='twitterHandle'
             placeholder='Enter a Twitter handle'
-            ref={(input) => { this.state.twitterHandle = input; }}
+            // ref={(input) => { this.setState(twitterHandle: input)); }}
           />
           <button type='submit'>Search</button>
         </form>
