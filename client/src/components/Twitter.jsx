@@ -3,13 +3,9 @@ import sample from './../sample.json'
 import TwitterInput from './TwitterInput.jsx';
 
 function Twitter() {
-  console.log(sample);
+  // console.log(sample);
   let tweetText = [];
   let tweetHTML = [];
-  // sample.map((tweet) =>
-  //   <li>{tweet.text}</li>,
-  //   tweetText.push(tweet.text)
-  // );
 
   // loops through full Twitter JSON lists them and add the tweets to an array
   sample.forEach(tweet => {
@@ -31,8 +27,8 @@ function Twitter() {
   wordArray.sort();
   tweetText = wordArray.join(' ')
 
-  console.log(wordArray);
-  console.log(tweetText);
+  // console.log(wordArray);
+  // console.log(tweetText);
 
   return (
     <div>

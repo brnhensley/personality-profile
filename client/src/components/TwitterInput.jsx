@@ -5,27 +5,29 @@ class TwitterInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      twitterResponse: [],
+      watsonResponse: [],
       twitterHandle: "gwar"
     };
   }
 
-  callTwitterAPI() {
-    fetch("http://localhost:9000/twitterAPI")
+  callWatsonAPI() {
+    fetch("http://localhost:9000/watsonAPI")
       .then(res => res.text())
-      .then(res => this.setState({ twitterResponse: res }));
+      .then(console.log(this.state.watsonResponse))
+      .then(res => this.setState({ watsonResponse: res }))
+      
   }
 
   componentDidMount() {
-    this.callTwitterAPI();
+    this.callWatsonAPI();
   }
 
   render() {
     return (
       <div>
-        <h1>{this.state.twitterHandle}</h1>
-        <h5>{this.state.twitterResponse}</h5>
-        <form onSubmit={this.callTwitterAPI}>
+        {/* <h1>{this.state.twitterHandle}</h1> */}
+        <h5>{this.state.watsonResponse}</h5>
+        <form onSubmit={this.callWatsonAPI}>
           <input
             type='text'
             id='twitterHandle'
