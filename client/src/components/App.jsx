@@ -10,13 +10,17 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { apiResponse: "" };
+    this.state = { apiResponse: [] };
   }
 
   callAPI() {
-    fetch("http://localhost:9000/testAPI")
+    var url = new URL("http://localhost:9000/testAPI"),
+      params = { handle: 'gwar' }
+    Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
+    fetch(url)
       .then(res => res.text())
-      .then(res => this.setState({ apiResponse: res }));
+      .then(res => this.setState({ apiResponse: res }))
+      .then(console.log(this.state.apiResponse));
   }
 
   componentDidMount() {
