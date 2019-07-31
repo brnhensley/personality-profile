@@ -3,17 +3,24 @@ let router = express.Router();
 
 const personality = require('watson-personality')
 let watsonData = [];
-personality('@gwar')
-    .then(function (personalityProfile) {
-        watsonData.push(personalityProfile);
-    })
-    .catch(function (error) {
-        console.log('ERROR: ' + error)
-    })
 
 
-router.get("/", function (req, res, next) {
-    res.send(watsonData);
+
+
+router.get("/", function (req, res, next) {    
+    console.log(req.query.name);
+    if (req.query.name) {
+        personality(req.query.name)
+        .then((personalityProfile) => {
+            
+            // watsonData.push(personalityProfile);
+            res.send(personalityProfile);
+        })
+        .catch(function (error) {
+            console.log('ERROR: ' + error)
+        })
+    
+    }    
 });
 
 module.exports = router;

@@ -1,48 +1,52 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
-class TwitterInput extends React.Component {
+const WatsonInput = () => {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      watsonResponse: [],
-      twitterHandle: "gwar"
-    };
-  }
-
-  callWatsonAPI() {
-    fetch("http://localhost:9000/watsonAPI")
+  const [data, setData] = useState({ watsonResponse: [], twitterHandle: "gwar", displayHandle: '' })
+  
+  const callWatsonAPI = () => {        
+    // setData({...data, displayHandle: data.twitterHandle });
+    fetch(`http://localhost:9000/watsonAPI?name=${data.twitterHandle}`)
       .then(res => res.json())
-      .then(res => this.setState({...this.state, watsonResponse: res }))
+      .then(res => setData({...data, watsonResponse: res, displayHandle: data.twitterHandle }));
   }
 
-  componentDidMount() {
-    this.callWatsonAPI();
-  }
+  const getState = () => console.log(data);
 
-  getState = () => console.log(this.state.watsonResponse);
+  useEffect(() => {
+    callWatsonAPI();
+    // this empty array functions to keep this from constatntly updating
+
+    return () => {
+      //runs function when component unmounts
+    }
+  }, []);
+
+  return (
+    <div>
+      <button onClick={getState}>GET STATE</button>
+      <h1>{data.displayHandle}</h1>
+      {/* <h1>{state.twitterHandle}</h1> */}
+      <h5>{JSON.stringify(data.watsonResponse)}</h5>
+      <form onSubmit={event => {
+        event.preventDefault()
+        callWatsonAPI();
+      }
+      }>
+        <input
+          type='text'
+          id='twitterHandle'
+          placeholder='Enter a Twitter handle'
+          onChange={event => setData({ ...data, twitterHandle: event.target.value })}
+        />
+        <button type='submit'>Search</button>
+      </form>
+    </div>
+  );
 
 
-  render() {
-    return (
-      <div>
-        <button onClick={this.getState}>GET STATE</button>
 
-        {/* <h1>{this.state.twitterHandle}</h1> */}
-        <h5>{JSON.stringify(this.state.watsonResponse)}</h5>
-        <form onSubmit={this.callWatsonAPI}>
-          <input
-            type='text'
-            id='twitterHandle'
-            placeholder='Enter a Twitter handle'
-            // ref={(input) => { this.setState({...this.state, twitterHandle: input})}}
-          />
-          <button type='submit'>Search</button>
-        </form>
-      </div>
-    );
-  }
+
 }
 
-
-export default TwitterInput;
+export default WatsonInput;
