@@ -1,3 +1,5 @@
+// node_modules/watson-personality/personality.js
+
 module.exports = personality
 const PersonalityInsightsV3 = require('watson-developer-cloud/personality-insights/v3');
 
