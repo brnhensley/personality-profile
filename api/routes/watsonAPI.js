@@ -4,9 +4,6 @@ let router = express.Router();
 const personality = require('watson-personality')
 let watsonData = [];
 
-
-
-
 router.get("/", function (req, res, next) {    
     console.log(req.query.name);
     if (req.query.name) {
