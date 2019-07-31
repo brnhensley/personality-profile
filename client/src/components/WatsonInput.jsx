@@ -21,15 +21,14 @@ const WatsonInput = () => {
 
   const getState = () => console.log(data);
 
-  useEffect(() => {
-    // callWatsonAPI();
-    console.log(JSON.stringify(data.watsonResponse));
+  // useEffect(() => {
+  //   // callWatsonAPI();
 
-    return () => {
-      //runs function when component unmounts
-    }
-    // this empty array functions to keep this from constatntly updating
-  }, []);
+  //   return () => {
+  //     //runs function when component unmounts
+  //   }
+  //   // this empty array functions to keep this from constatntly updating
+  // }, []);
 
   let personalityBreakdown = null;
   if (data.watsonResponse !== null) {

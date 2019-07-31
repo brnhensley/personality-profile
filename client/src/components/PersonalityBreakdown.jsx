@@ -5,35 +5,34 @@ import PropTypes from 'prop-types';
 
 function PersonalityBreakdown(props) {
 
-  let display = '';
-  let results = '';
-  let data = JSON.parse(JSON.stringify(props.watsonResponse));
-  console.log(data);
-  
+  // let displayResultsHeader = '';
+  let results = JSON.parse(JSON.stringify(props.watsonResponse));
+  console.log(results.traits);
 
-  if(props.watsonResponse !== {}) {
-    display = "Results: "
-    // results = '{JSON.stringify(props.watsonResponse)}'
-    console.log("BREAKDOWN IS PASSING");
-    
-  }
+  let displayData;
+  let li = document.createElement("LI");
 
-  useEffect(() => {
-    // callWatsonAPI();
-    console.log(JSON.stringify(watsonSample));
-    
-    return () => {
-      //runs function when component unmounts
-    }
-    // this empty array functions to keep this from constatntly updating
-  }, []);
+  // if (props.watsonResponse !== {}) {
+  //   displayResultsHeader = "Results: "
+  // }
+
   return (
     <div>
-      <h1>PersonalityBreakdown works</h1>
-      <h3>{display}</h3>
-      {/* <h5>{props.watsonResponse.TRAITS}</h5> */}
-      {/* <h5>{JSON.stringify(watsonSample)}</h5> */}
-      {/* <h5>{data[0].TRAITS}</h5> */}
+      <h1>Big Five Personality Traits</h1>
+    
+       {Object.values(results.traits).map(function (personalityTrait) {
+        return <div><h2>{personalityTrait.name}: {(personalityTrait.percentile*100).toFixed(2)}%</h2> {Object.values(personalityTrait.children).map(function (subTrait) {
+          return <h4>{subTrait.name} - {(subTrait.percentile*100).toFixed(2)}%</h4>
+        })}</div>
+      })}
+    
+      <h1>Needs</h1>
+      {Object.values(results.needs).map(function (need) {
+        console.log(need)
+        return <div><h3>{need.name}: {(need.percentile*100).toFixed(2)}%</h3></div> 
+      })}
+
+
     </div>
   );
 }
