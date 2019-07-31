@@ -1,8 +1,8 @@
 import React from 'react';
 import sample from './../sample.json'
-import TwitterInput from './TwitterInput.jsx';
+import WatsonInput from './WatsonInput';
 
-function Twitter() {
+function API() {
   // console.log(sample);
   let tweetText = [];
   let tweetHTML = [];
@@ -32,13 +32,13 @@ function Twitter() {
 
   return (
     <div>
-      <TwitterInput />
+      <WatsonInput />
       <h2>Tweets by @{sample[0].user.name}</h2>
       <ul>
-        {tweetHTML}
+        {/* {tweetHTML} */}
       </ul>
     </div>
   );
 }
 
-export default Twitter;
+export default API;

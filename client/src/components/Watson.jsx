@@ -1,15 +1,16 @@
 import React from 'react';
 import PersonalityBreakdown from './PersonalityBreakdown';
 import WordCloud from './WordCloud';
+import WatsonInput from './WatsonInput';
 
 function Watson() {
 
   return (
     <div>
       <h2>Watson comp here makes API call</h2>
-      <PersonalityBreakdown />
+      <WatsonInput />
+      
       <hr />
-      <WordCloud />
     </div>
   );
 }

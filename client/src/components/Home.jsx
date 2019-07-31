@@ -1,5 +1,5 @@
 import React from 'react';
-import Twitter from './Twitter';
+import API from './API';
 import Watson from './Watson';
 
   function Home() {
@@ -23,8 +23,7 @@ import Watson from './Watson';
         }
       `}</style>
         <h2>Home screen start</h2>
-        <Twitter />
-        <Watson />
+              <Watson />
         <h2>Home screen end</h2>
       </div>
     );
