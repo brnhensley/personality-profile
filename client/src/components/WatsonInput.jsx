@@ -6,7 +6,7 @@ import PersonalityBreakdown from './PersonalityBreakdown';
 const WatsonInput = () => {
 
   const [data, setData] = useState({
-    watsonResponse: {},
+    watsonResponse: null,
     twitterHandle: '',
     displayHandle: '',
   })
@@ -24,19 +24,24 @@ const WatsonInput = () => {
   useEffect(() => {
     // callWatsonAPI();
     console.log(JSON.stringify(data.watsonResponse));
-    
+
     return () => {
       //runs function when component unmounts
     }
     // this empty array functions to keep this from constatntly updating
   }, []);
 
+  let personalityBreakdown = null;
+  if (data.watsonResponse !== null) {
+    personalityBreakdown = <PersonalityBreakdown watsonResponse={data.watsonResponse} />;
+  }
+
   return (
     <div>
       <button onClick={getState}>GET STATE</button>
       <h1>{data.displayHandle}</h1>
 
-      <h5>{JSON.stringify(data.watsonResponse)}</h5>
+      {/* <h5>{JSON.stringify(data.watsonResponse)}</h5> */}
 
       <form onSubmit={event => {
         event.preventDefault()
@@ -50,9 +55,7 @@ const WatsonInput = () => {
         />
         <button type='submit'>Search</button>
       </form>
-
-      <PersonalityBreakdown watsonResponse={data.watsonResponse} />
-
+      {personalityBreakdown}
     </div>
   );
 
