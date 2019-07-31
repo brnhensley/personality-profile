@@ -8,7 +8,7 @@ personality('@gwar')
         watsonData.push(personalityProfile);
     })
     .catch(function (error) {
-        console.log('ERROR: '+ error)
+        console.log('ERROR: ' + error)
     })
 
 

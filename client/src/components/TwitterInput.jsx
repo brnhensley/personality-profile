@@ -13,7 +13,7 @@ class TwitterInput extends React.Component {
   callWatsonAPI() {
     fetch("http://localhost:9000/watsonAPI")
       .then(res => res.json())
-      .then(res => this.setState({ watsonResponse: res }))
+      .then(res => this.setState({...this.state, watsonResponse: res }))
   }
 
   componentDidMount() {
@@ -35,12 +35,10 @@ class TwitterInput extends React.Component {
             type='text'
             id='twitterHandle'
             placeholder='Enter a Twitter handle'
-          // ref={(input) => { this.setState(twitterHandle: input)); }}
+            // ref={(input) => { this.setState({...this.state, twitterHandle: input})}}
           />
           <button type='submit'>Search</button>
         </form>
-
-
       </div>
     );
   }
