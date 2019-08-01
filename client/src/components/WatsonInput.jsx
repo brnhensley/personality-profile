@@ -12,55 +12,51 @@ const WatsonInput = () => {
   })
 
   const callWatsonAPI = () => {
-    // setData({...data, displayHandle: data.twitterHandle });
     fetch(`http://localhost:9000/watsonAPI?name=${data.twitterHandle}`)
       .then(res => res.json())
       .then(res => setData({ ...data, watsonResponse: res, displayHandle: data.twitterHandle }))
       .then();
   }
 
-  const getState = () => console.log(data);
-
-  // useEffect(() => {
-  //   // callWatsonAPI();
-
-  //   return () => {
-  //     //runs function when component unmounts
-  //   }
-  //   // this empty array functions to keep this from constatntly updating
-  // }, []);
+  let searchedUser = null;
+  if (data.displayHandle !== '') {
+  }
 
   let personalityBreakdown = null;
   if (data.watsonResponse !== null) {
     personalityBreakdown = <PersonalityBreakdown watsonResponse={data.watsonResponse} />;
+    searchedUser = <h1>Results for @{data.displayHandle}</h1>
   }
 
   return (
     <div>
-      <button onClick={getState}>GET STATE</button>
-      <h1>{data.displayHandle}</h1>
-
-      {/* <h5>{JSON.stringify(data.watsonResponse)}</h5> */}
-
+      <h3>Enter a Twitter user's handle to get a personality breakdown based on their posting history</h3>
       <form onSubmit={event => {
         event.preventDefault()
         callWatsonAPI();
       }}>
+
         <input
           type='text'
           id='twitterHandle'
           placeholder='Enter a Twitter handle'
           onChange={event => setData({ ...data, twitterHandle: event.target.value })}
         />
+
         <button type='submit'>Search</button>
       </form>
+
+      {searchedUser}
       {personalityBreakdown}
+
+      <br/><br/>
     </div>
   );
-
-
-
 
 }
 
 export default WatsonInput;
+
+  // useful for ongoing testing purposes
+  // const getState = () => console.log(data);
+  // <button onClick={getState}>GET STATE</button>

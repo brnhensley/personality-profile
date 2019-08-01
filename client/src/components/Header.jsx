@@ -21,7 +21,7 @@ function Header() {
           border-radius: 25px;
         }
       `}</style>
-      <h2>Get a personality breakdown created from a Twitter user's post history</h2>
+      <h1>The Judgement-ometer</h1>
     </div>
   );
 }

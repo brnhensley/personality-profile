@@ -1,35 +1,33 @@
 import React, { useEffect, useState } from 'react';
-import watsonSample from './../watsonSample.json'
 import PropTypes from 'prop-types';
+
+// for offline emergency testing
+// import watsonSample from './../watsonSample.json'
 
 
 function PersonalityBreakdown(props) {
-
-  // let displayResultsHeader = '';
   let results = JSON.parse(JSON.stringify(props.watsonResponse));
-  console.log(results.traits);
-
-  let displayData;
-  let li = document.createElement("LI");
-
-  // if (props.watsonResponse !== {}) {
-  //   displayResultsHeader = "Results: "
-  // }
 
   return (
     <div>
       <h1>Big Five Personality Traits</h1>
-    
-       {Object.values(results.traits).map(function (personalityTrait) {
-        return <div><h2>{personalityTrait.name}: {(personalityTrait.percentile*100).toFixed(2)}%</h2> {Object.values(personalityTrait.children).map(function (subTrait) {
-          return <h4>{subTrait.name} - {(subTrait.percentile*100).toFixed(2)}%</h4>
-        })}</div>
+
+      {Object.values(results.traits).map(function (personalityTrait) {
+        return <div>
+          <h2>{personalityTrait.name}: {(personalityTrait.percentile * 100).toFixed(2)}%</h2>
+
+          {Object.values(personalityTrait.children).map(function (subTrait) {
+            return <h5>{subTrait.name} - {(subTrait.percentile * 100).toFixed(2)}%</h5>
+          })}
+          <h6>==================================================</h6>
+        </div>
       })}
-    
+
+      <h4>==================================================</h4>
       <h1>Needs</h1>
+
       {Object.values(results.needs).map(function (need) {
-        console.log(need)
-        return <div><h3>{need.name}: {(need.percentile*100).toFixed(2)}%</h3></div> 
+        return <h3>{need.name}: {(need.percentile * 100).toFixed(2)}%</h3>
       })}
 
 
@@ -38,7 +36,7 @@ function PersonalityBreakdown(props) {
 }
 
 PersonalityBreakdown.propTypes = {
-  watsonResponse: PropTypes.any
+  watsonResponse: PropTypes.any.isRequired
 };
 
 export default PersonalityBreakdown;

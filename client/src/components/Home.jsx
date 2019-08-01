@@ -1,12 +1,11 @@
 import React from 'react';
-import API from './API';
 import Watson from './Watson';
 
-  function Home() {
+function Home() {
 
-    return (
-      <div className="home">
-        <style jsx>{`
+  return (
+    <div className="home">
+      <style jsx>{`
         .home {
           display: flex;
           flex-direction: column;
@@ -18,15 +17,16 @@ import Watson from './Watson';
           background-position: center;
           border: 4px solid black;
           margin: 2%;
+          font-family: monospace
           padding: 2%;
           border-radius: 25px;
         }
       `}</style>
-        <h2>Home screen start</h2>
-              <Watson />
-        <h2>Home screen end</h2>
-      </div>
-    );
-  }
+
+      <Watson />
+
+    </div>
+  );
+}
 
 export default Home;
