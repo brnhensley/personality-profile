@@ -9,6 +9,8 @@
 ## _Setup/Installation Requirements_
 
 * _Clone repo_
+* _DO NOT RUN npm install_
+* _Sorry about the huge file size, custom edits in the node_modules means I had to push the netire directory_
 * _checkout branch 'workingdemo'_
 * _run $ npm start from the api directory_
 * _run $ npm start from the client directory_
