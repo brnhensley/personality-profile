@@ -1,3 +1,0 @@
-export const SEARCH_TWITTER = 'SEARCH_TWITTER';
-export const CALL_WATSON = 'CALL_WATSON';
-export const WORDCLOUD = 'WORDCLOUD';
