@@ -46,7 +46,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 2.  Twitter user login to get a profile of their followers
 
 ## _Component Plan_
-![ss1](https://github.com/brnhensley/personality-profile/blob/master/profile.png)
+![ss1](https://github.com/brnhensley/personality-profile/blob/master/comptree.png)
 
 # Friday 9-17-2019
 * _8-10 - learned to use Postman, create component tree_
