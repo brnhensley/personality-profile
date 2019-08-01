@@ -10,10 +10,9 @@
 ## _Setup/Installation Requirements_
 
 * _Clone repo_
-* _checkout branch 'workingdemo'_
 * _run $ npm install from the api directory_
-* _run $ npm start from the api directory_
 * _replace api/node_modules/watson-personality/personality.js with a copy of api/personality.js_
+* _run $ npm start from the api directory_
 * _run $ npm install from the client directory_
 * _run $ npm start from the client directory_
 * _navigate to http://localhost:3000/_
