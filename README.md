@@ -9,10 +9,11 @@
 ## _Setup/Installation Requirements_
 
 * _Clone repo_
-* _DO NOT RUN npm install_
-* _Sorry about the huge file size, custom edits in the node_modules means I had to push the netire directory_
 * _checkout branch 'workingdemo'_
+* _run $ npm install from the api directory_
 * _run $ npm start from the api directory_
+* _replace api/node_modules/watson-personality/personality.js with a copy of api/personality.js_
+* _run $ npm install from the client directory_
 * _run $ npm start from the client directory_
 * _navigate to http://localhost:3000/_
 * _enter a Twitter handle in the search field and get your results_
