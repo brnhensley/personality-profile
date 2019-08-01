@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import rd3 from 'react-d3-library'
 import PersonalityBreakdown from './PersonalityBreakdown';
+// import rd3 from 'react-d3-library'  - For Later
 
 
 const WatsonInput = () => {
@@ -8,24 +8,19 @@ const WatsonInput = () => {
   const [data, setData] = useState({
     watsonResponse: null,
     twitterHandle: '',
-    displayHandle: '',
   })
 
   const callWatsonAPI = () => {
     fetch(`http://localhost:9000/watsonAPI?name=${data.twitterHandle}`)
       .then(res => res.json())
-      .then(res => setData({ ...data, watsonResponse: res, displayHandle: data.twitterHandle }))
-      .then();
+      .then(res => setData({ ...data, watsonResponse: res }))
   }
 
   let searchedUser = null;
-  if (data.displayHandle !== '') {
-  }
-
   let personalityBreakdown = null;
   if (data.watsonResponse !== null) {
     personalityBreakdown = <PersonalityBreakdown watsonResponse={data.watsonResponse} />;
-    searchedUser = <h1>Results for @{data.displayHandle}</h1>
+    searchedUser = <h1>Results for @{data.twitterHandle}</h1>
   }
 
   return (
@@ -49,7 +44,7 @@ const WatsonInput = () => {
       {searchedUser}
       {personalityBreakdown}
 
-      <br/><br/>
+      <br /><br />
     </div>
   );
 

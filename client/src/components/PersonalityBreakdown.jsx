@@ -30,7 +30,6 @@ function PersonalityBreakdown(props) {
         return <h3>{need.name}: {(need.percentile * 100).toFixed(2)}%</h3>
       })}
 
-
     </div>
   );
 }
