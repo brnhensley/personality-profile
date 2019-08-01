@@ -1,0 +1,345 @@
+{
+    "TRAITS": [
+        {
+            "TRAIT_ID": "BIG5_OPENNESS",
+            "NAME": "OPENNESS",
+            "CATEGORY": "PERSONALITY",
+            "PERCENTILE": 0.8017115382166251,
+            "SIGNIFICANT":true,
+            "CHILDREN": [
+                {
+                    "TRAIT_ID": "FACET_ADVENTUROUSNESS",
+                    "NAME": "ADVENTUROUSNESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.6981632956348587,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_ARTISTIC_INTERESTS",
+                    "NAME": "ARTISTIC INTERESTS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.8653417462046543,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_EMOTIONALITY",
+                    "NAME": "EMOTIONALITY",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.33837396236170814,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_IMAGINATION",
+                    "NAME": "IMAGINATION",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.9376981686600051,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_INTELLECT",
+                    "NAME": "INTELLECT",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.6480488512879969,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_LIBERALISM",
+                    "NAME": "AUTHORITY-CHALLENGING",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.5902362122331868,
+                    "SIGNIFICANT":true
+                }
+            ]
+        },
+        {
+            "TRAIT_ID": "BIG5_CONSCIENTIOUSNESS",
+            "NAME": "CONSCIENTIOUSNESS",
+            "CATEGORY": "PERSONALITY",
+            "PERCENTILE": 0.3759088089883514,
+            "SIGNIFICANT":true,
+            "CHILDREN": [
+                {
+                    "TRAIT_ID": "FACET_ACHIEVEMENT_STRIVING",
+                    "NAME": "ACHIEVEMENT STRIVING",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.6499653059061609,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_CAUTIOUSNESS",
+                    "NAME": "CAUTIOUSNESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.19198138366675754,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_DUTIFULNESS",
+                    "NAME": "DUTIFULNESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.06202227489227985,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_ORDERLINESS",
+                    "NAME": "ORDERLINESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.6144415945380776,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_SELF_DISCIPLINE",
+                    "NAME": "SELF-DISCIPLINE",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.2985788963670523,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_SELF_EFFICACY",
+                    "NAME": "SELF-EFFICACY",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.9537630350002313,
+                    "SIGNIFICANT":true
+                }
+            ]
+        },
+        {
+            "TRAIT_ID": "BIG5_EXTRAVERSION",
+            "NAME": "EXTRAVERSION",
+            "CATEGORY": "PERSONALITY",
+            "PERCENTILE": 0.30040104855301153,
+            "SIGNIFICANT":true,
+            "CHILDREN": [
+                {
+                    "TRAIT_ID": "FACET_ACTIVITY_LEVEL",
+                    "NAME": "ACTIVITY LEVEL",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.7318739517217001,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_ASSERTIVENESS",
+                    "NAME": "ASSERTIVENESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.7329100381239093,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_CHEERFULNESS",
+                    "NAME": "CHEERFULNESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.17158847511699005,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_EXCITEMENT_SEEKING",
+                    "NAME": "EXCITEMENT-SEEKING",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.7625399670228322,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_FRIENDLINESS",
+                    "NAME": "OUTGOING",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.4153750995483624,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_GREGARIOUSNESS",
+                    "NAME": "GREGARIOUSNESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.35304764080983203,
+                    "SIGNIFICANT":true
+                }
+            ]
+        },
+        {
+            "TRAIT_ID": "BIG5_AGREEABLENESS",
+            "NAME": "AGREEABLENESS",
+            "CATEGORY": "PERSONALITY",
+            "PERCENTILE": 0.03598453193481643,
+            "SIGNIFICANT":true,
+            "CHILDREN": [
+                {
+                    "TRAIT_ID": "FACET_ALTRUISM",
+                    "NAME": "ALTRUISM",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.44437127827971495,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_COOPERATION",
+                    "NAME": "COOPERATION",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.1911541241883417,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_MODESTY",
+                    "NAME": "MODESTY",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.10186743666603887,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_MORALITY",
+                    "NAME": "UNCOMPROMISING",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.18169278969966612,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_SYMPATHY",
+                    "NAME": "SYMPATHY",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.6433357324540541,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_TRUST",
+                    "NAME": "TRUST",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.6167079263350101,
+                    "SIGNIFICANT":true
+                }
+            ]
+        },
+        {
+            "TRAIT_ID": "BIG5_NEUROTICISM",
+            "NAME": "EMOTIONAL RANGE",
+            "CATEGORY": "PERSONALITY",
+            "PERCENTILE": 0.3147586221732197,
+            "SIGNIFICANT":true,
+            "CHILDREN": [
+                {
+                    "TRAIT_ID": "FACET_ANGER",
+                    "NAME": "FIERY",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.7879943461095117,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_ANXIETY",
+                    "NAME": "PRONE TO WORRY",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.6460903649262486,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_DEPRESSION",
+                    "NAME": "MELANCHOLY",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.70096523370424,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_IMMODERATION",
+                    "NAME": "IMMODERATION",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.19180203332611778,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_SELF_CONSCIOUSNESS",
+                    "NAME": "SELF-CONSCIOUSNESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.5650178428557189,
+                    "SIGNIFICANT":true
+                },
+                {
+                    "TRAIT_ID": "FACET_VULNERABILITY",
+                    "NAME": "SUSCEPTIBLE TO STRESS",
+                    "CATEGORY": "PERSONALITY",
+                    "PERCENTILE": 0.4706425415234767,
+                    "SIGNIFICANT":true
+                }
+            ]
+        }
+    ],
+    "NEEDS": [
+        {
+            "TRAIT_ID": "NEED_CHALLENGE",
+            "NAME": "CHALLENGE",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.4198918125554133,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_CLOSENESS",
+            "NAME": "CLOSENESS",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.169402751237971,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_CURIOSITY",
+            "NAME": "CURIOSITY",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.5603950712958771,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_EXCITEMENT",
+            "NAME": "EXCITEMENT",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.5628168554780376,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_HARMONY",
+            "NAME": "HARMONY",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.6581449531010929,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_IDEAL",
+            "NAME": "IDEAL",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.4738413740920766,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_LIBERTY",
+            "NAME": "LIBERTY",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.5007842461221033,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_LOVE",
+            "NAME": "LOVE",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.07614450445928861,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_PRACTICALITY",
+            "NAME": "PRACTICALITY",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.7296535612165368,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_SELF_EXPRESSION",
+            "NAME": "SELF-EXPRESSION",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.5446795042521124,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_STABILITY",
+            "NAME": "STABILITY",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.5920172631408066,
+            "SIGNIFICANT":true
+        },
+        {
+            "TRAIT_ID": "NEED_STRUCTURE",
+            "NAME": "STRUCTURE",
+            "CATEGORY": "NEEDS",
+            "PERCENTILE": 0.39876767022023807,
+            "SIGNIFICANT":true
+        }
+    ]
+}
