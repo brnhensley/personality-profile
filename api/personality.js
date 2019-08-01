@@ -3,6 +3,7 @@
 module.exports = personality
 const PersonalityInsightsV3 = require('watson-developer-cloud/personality-insights/v3');
 
+
 function personality(username) {
     return new Promise(function(resolve, reject) {
         var Twit = require('twit')
