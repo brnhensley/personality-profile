@@ -68,3 +68,4 @@ I will use React, Javascript, HTML, CSS, Node, WebPack, Twitter API, Watson API 
 GPL, keep information free.
 
 Copyright (c) 2019 Brian Hensley
+
