@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# _Personality Profile_
 
-## Available Scripts
+#### _A webapp that takes Twitter information and returns personality profiles based on that, 7-19-19_
 
-In the project directory, you can run:
+#### _By Brian Hensley_
 
-### `npm start`
+# _Project Description_
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## _Setup/Installation Requirements_
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* _Clone repo_
+* _checkout branch 'workingdemo'_
+* _run $ npm start from the api directory_
+* _run $ npm start from the client directory_
+* _navigate to http://localhost:3000/_
+* _enter a Twitter handle in the search field and get your results_
 
-### `npm test`
+# _Project Proposal_
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Project’s Purpose or Goal: _The general goal is to create an interesting breakdown of Twitter users personalities_
 
-### `npm run build`
+* List the absolute minimum features the project requires to meet this purpose or goal:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  User enters a Twitter handle and it makes an API call to Twitter to grab their tweets
+2.  API call to IBM's Watson to analyze and return data based on the text of those tweets
+3.  Display a personality analysis of the Twitter user based on analysiscreated by Watson
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  React, Node, NPM
+2.  Twitter API
+3.  Watson API
+4.  HTML, CSS, Material/Materialize or Bootstrap
 
-### `npm run eject`
+* If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1.  Word cloud (interactive?) of the most common words used by user. Or some other visual representation of language used.
+2.  Collect and analyze tweets of all users who retweet or favorite a specific user, return personality profile of the average 'fan' of that user.
+3.  ...Profit?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1.  Mostly just diving deeper into those API calls.
+2.  Twitter user login to get a profile of their followers
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## _Component Plan_
+![ss1](https://github.com/brnhensley/personality-profile/blob/master/profile.png)
 
-## Learn More
+# Friday 9-17-2019
+* _8-10 - learned to use Postman, create component tree_
+* _11-12 - Worked on getting data returned from of the Watson API_
+* _12-2 - Signed up for Twitter, reading docs, started Twitter project requirements_
+* _2-5 - Tried to understand the APIs basically all day_
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## _Support and contact details_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a pull request on GitHub.
 
-### Code Splitting
+## _Technologies Used_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+I will use React, Javascript, HTML, CSS, Node, WebPack, Twitter API, Watson API and DuckDuckGo to build this program.
 
-### Analyzing the Bundle Size
+### _License_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+GPL, keep information free.
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2019 Brian Hensley
