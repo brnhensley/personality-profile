@@ -1,6 +1,6 @@
 # _Personality Profile_
 
-#### _A webapp that takes a Twitter handle and returns a personality profile based on their tweet history from IMB's Watson_ 
+#### _This is a webapp that takes a Twitter handle and returns a personality profile based on their tweet history created by IMB's Watson._
 
 #### _By Brian Hensley_
 #### _7-19-19_
@@ -26,7 +26,7 @@
 
 1.  User enters a Twitter handle and it makes an API call to Twitter to grab their tweets
 2.  API call to IBM's Watson to analyze and return data based on the text of those tweets
-3.  Display a personality analysis of the Twitter user based on analysiscreated by Watson
+3.  Display a personality analysis of the Twitter user based on analysis created by Watson
 
 * What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
@@ -68,4 +68,3 @@ I will use React, Javascript, HTML, CSS, Node, WebPack, Twitter API, Watson API 
 GPL, keep information free.
 
 Copyright (c) 2019 Brian Hensley
-
