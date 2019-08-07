@@ -8,24 +8,27 @@ const WatsonInput = () => {
   const [data, setData] = useState({
     watsonResponse: null,
     twitterHandle: '',
+    displayHandle: ''
   })
 
   const callWatsonAPI = () => {
     fetch(`http://localhost:9000/watsonAPI?name=${data.twitterHandle}`)
       .then(res => res.json())
       .then(res => setData({ ...data, watsonResponse: res }))
+      .then(data.displayHandle = data.twitterHandle)
   }
 
   let searchedUser = null;
   let personalityBreakdown = null;
   if (data.watsonResponse !== null) {
     personalityBreakdown = <PersonalityBreakdown watsonResponse={data.watsonResponse} />;
-    searchedUser = <h1>Results for @{data.twitterHandle}</h1>
+    searchedUser = <h1>Results for @{data.displayHandle}</h1>
   }
 
   return (
     <div>
       <h3>Enter a Twitter user's handle to get a personality breakdown based on their posting history</h3>
+      <h5>Be patient, Watson needs to think...</h5>
       <form onSubmit={event => {
         event.preventDefault()
         callWatsonAPI();
