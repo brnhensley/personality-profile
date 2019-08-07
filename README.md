@@ -27,8 +27,6 @@ _The original proposal for this capstone project was to make two API calls- one 
 
 ## _Known Bugs_
 
-* _After you have searched a twitter user you can type into the input field and it will live update the user's handle displayed on screen._
-
 * _Sometimes the page won't update with the new data after making a second API call, it will need to be refreshed._
 
 ## _Support and contact details_
