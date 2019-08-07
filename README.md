@@ -25,7 +25,7 @@ _The original proposal for this capstone project was to make two API calls- one 
 ## _Original Component Plan_
 ![ss1](https://github.com/brnhensley/personality-profile/blob/master/comptree.png)
 
-## _Bugs - This is a work in progress so things do need to be changed_
+## _Known Bugs_
 
 * _After you have searched a twitter user you can type into the input field and it will live update the user's handle displayed on screen._
 
