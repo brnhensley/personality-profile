@@ -7,7 +7,7 @@
 
 ## _Project Description_
 
-_This is a webapp build with a React front-end and an Express Node.JS back-end as a proxy to make the API call to Watson._
+_This is a webapp built with a React front-end and an Express Node.JS back-end as a proxy to make the API call to Watson._
 
 _The original proposal for this capstone project was to make two API calls- one to Twitter for a users tweet history, and one to send that history to IBM's Watson to return a personality breakdown based on that history. What I was able to accomplish was to successfully use IBM's Watson to pull that history itself and return that data with just a single API call._
 
