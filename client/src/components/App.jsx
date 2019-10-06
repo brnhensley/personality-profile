@@ -1,23 +1,19 @@
-import React from 'react';
+import * as React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Home from './Home';
-import PropTypes from 'prop-types';
-
-// STATE
+import WatsonInput from './WatsonInput';
 
 class App extends React.Component {
 
-  render() {
-
-    return (
-      <div>
-        <Header />
-        <Home />
-        <Footer />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<React.Fragment>
+				<Header />
+				<WatsonInput />
+				<Footer />
+			</React.Fragment>
+		);
+	}
 }
 
 export default App;

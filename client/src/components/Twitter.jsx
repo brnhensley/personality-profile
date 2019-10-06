@@ -2,7 +2,7 @@ import React from 'react';
 import sample from './../sample.json'
 import WatsonInput from './WatsonInput';
 
-function API() {
+function Twitter() {
   // console.log(sample);
   let tweetText = [];
   let tweetHTML = [];
@@ -41,4 +41,4 @@ function API() {
   );
 }
 
-export default API;
+export default Twitter;

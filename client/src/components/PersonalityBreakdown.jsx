@@ -1,41 +1,44 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-// for offline emergency testing
-// import watsonSample from './../watsonSample.json'
-
-
 function PersonalityBreakdown(props) {
-  let results = JSON.parse(JSON.stringify(props.watsonResponse));
+	let results = JSON.parse(JSON.stringify(props.watsonResponse));
 
-  return (
-    <div>
-      <h1>Big Five Personality Traits</h1>
+	return (
+		<React.Fragment>
+			<div className="window">
+				<h2>Personality Analysis of Twitter user @{props.twitterHandle}</h2>
+			</div>
 
-      {Object.values(results.traits).map(function (personalityTrait) {
-        return <div>
-          <h2>{personalityTrait.name}: {(personalityTrait.percentile * 100).toFixed(2)}%</h2>
+			{Object.values(results.traits).map(function (personalityTrait) {
+				return <div className="window" key={results.traits.indexOf(personalityTrait)}>
+					<h3>Big Five Personality Trait: {personalityTrait.name}: {(personalityTrait.percentile * 100).toFixed(2)}%</h3>
 
-          {Object.values(personalityTrait.children).map(function (subTrait) {
-            return <h5>{subTrait.name} - {(subTrait.percentile * 100).toFixed(2)}%</h5>
-          })}
-          <h6>==================================================</h6>
-        </div>
-      })}
+					{Object.values(personalityTrait.children).map(function (subTrait) {
+						return <h5 key={personalityTrait.children.indexOf(subTrait)}>
+							{subTrait.name} - {(subTrait.percentile * 100).toFixed(2)}%
+              			</h5>
+					})}
+				</div>
+			})}
 
-      <h4>==================================================</h4>
-      <h1>Maslow's hierarchy of needs</h1>
+			<div className="window">
+				<h3>Maslow's hierarchy of needs</h3>
 
-      {Object.values(results.needs).map(function (need) {
-        return <h3>{need.name}: {(need.percentile * 100).toFixed(2)}%</h3>
-      })}
+				{Object.values(results.needs).map(function (need) {
+					return <h5 key={results.needs.indexOf(need)}>
+						{need.name}: {(need.percentile * 100).toFixed(2)}%
+					</h5>
+				})}
 
-    </div>
-  );
+			</div>
+		</React.Fragment>
+	);
 }
 
 PersonalityBreakdown.propTypes = {
-  watsonResponse: PropTypes.any.isRequired
+	watsonResponse: PropTypes.any.isRequired,
+	twitterHandle: PropTypes.any.isRequired
 };
 
 export default PersonalityBreakdown;
