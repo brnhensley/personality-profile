@@ -1,6 +1,6 @@
 # _Personality Profile_
 
-#### _This is a webapp that takes a Twitter handle and returns a personality profile based on their tweet history created by IMB's Watson._
+#### _This is a webapp that takes a Twitter handle and returns a personality profile based on their tweet history created by IBM's Watson._
 
 #### _By Brian Hensley_
 #### _7-19-19_
