@@ -15,7 +15,6 @@ _The original proposal for this capstone project was to make two API calls- one 
 
 * _Clone repo_
 * _run $ npm install from the api directory_
-* _replace api/node_modules/watson-personality/personality.js with a copy of api/personality.js_
 * _run $ npm start from the api directory_
 * _run $ npm install from the client directory_
 * _run $ npm start from the client directory_

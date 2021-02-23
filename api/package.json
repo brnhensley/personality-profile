@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,7 +15,6 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "twit": "^2.2.11",
-    "watson-developer-cloud": "^3.18.1",
-    "watson-personality": "^1.0.3"
+    "watson-developer-cloud": "^3.18.1"
   }
 }

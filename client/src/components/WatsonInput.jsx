@@ -9,21 +9,21 @@ const WatsonInput = () => {
 		watsonResponse: null,
 		twitterHandle: '',
 		displayHandle: ''
-	})
+	});
 
 	const callWatsonAPI = () => {
-		fetch(`http://localhost:9000/watsonAPI?name=${data.twitterHandle}`)
+		fetch(`http://localhost:9000/watsonAPI?username=${data.twitterHandle}`)
 			.then(res => res.json())
 			.then(res => setData({ ...data, watsonResponse: res }))
-			.then(data.displayHandle = data.twitterHandle)
-	}
+			.then(data.displayHandle = data.twitterHandle);
+	};
 
 	let search = <div className="window">
 		<h3>Enter a Twitter user's handle to get a personality breakdown based on their posting history</h3>
 		<p className="patient">Be patient, Watson needs to think...</p>
 
 		<form onSubmit={event => {
-			event.preventDefault()
+			event.preventDefault();
 			callWatsonAPI();
 		}}>
 			<input
@@ -34,7 +34,7 @@ const WatsonInput = () => {
 			/>
 			<button type='submit'>Search</button>
 		</form>
-	</div>
+	</div>;
 
 	// let personalityBreakdown = ;
 	let renderPage = data.watsonResponse !== null ? <PersonalityBreakdown watsonResponse={data.watsonResponse} twitterHandle={data.displayHandle} /> : search;
@@ -45,6 +45,6 @@ const WatsonInput = () => {
 		</React.Fragment>
 	);
 
-}
+};
 
 export default WatsonInput;
