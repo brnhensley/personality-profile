@@ -8,7 +8,7 @@ var cors = require("cors");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 var twitterAPIRouter = require("./routes/twitter");
-var watsonAPIRouter = require('./routes/personality');
+var watsonAPIRouter = require('./routes/watson');
 
 var app = express();
 

@@ -1,44 +1,31 @@
 import React from 'react';
-import sample from './../sample.json'
-import WatsonInput from './WatsonInput';
+import PropTypes from 'prop-types';
+import sample from './../sample.json';
 
-function Twitter() {
-  // console.log(sample);
-  let tweetText = [];
-  let tweetHTML = [];
+function Twitter(props) {
 
-  // loops through full Twitter JSON lists them and add the tweets to an array
-  sample.forEach(tweet => {
-    tweetHTML.push(<li>{tweet.text}</li>);
-    tweetText.push(tweet.text);
-  });
-
-  // Finds index of https link and cuts it off before creating master tweetText
-  // tweetText.push(tweet.text.slice(0, tweet.text.indexOf('https://')).trim());
-
-  // makes an array of every word tweeted
   let wordArray = [];
-  tweetText.join(' ').split(' ').forEach(word => {
-    if (!word.startsWith('https')) {
-      wordArray.push(word)
+  props.tweets.join(' ').split(' ').forEach(word => {
+    if (!word.startsWith('http')) {
+      wordArray.push(word);
     }
   });
   //this works, but a lot of punctuation makes it in
   wordArray.sort();
-  tweetText = wordArray.join(' ')
-
-  // console.log(wordArray);
-  // console.log(tweetText);
+  let tweetText = wordArray.join(' ');
 
   return (
     <div>
-      <WatsonInput />
       <h2>Tweets by @{sample[0].user.name}</h2>
-      <ul>
-        {/* {tweetHTML} */}
-      </ul>
+      <p>
+        {tweetText}
+      </p>
     </div>
   );
 }
+
+Twitter.propTypes = {
+  tweets: PropTypes.array.isRequired
+};
 
 export default Twitter;

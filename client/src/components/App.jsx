@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import WatsonInput from './WatsonInput';
+import UserSearch from './UserSearch';
 
 class App extends React.Component {
 
@@ -9,7 +9,7 @@ class App extends React.Component {
 		return (
 			<React.Fragment>
 				<Header />
-				<WatsonInput />
+				<UserSearch />
 				<Footer />
 			</React.Fragment>
 		);
