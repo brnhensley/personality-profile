@@ -6,7 +6,6 @@ const UserSearch = () => {
 	const [watsonResponse, setWatsonResponse] = useState(null);
 	const [twitterHandle, setTwitterHandle] = useState('');
 	const [tweets, setTweets] = useState([]);
-	console.log(watsonResponse);
 
 	const callWatsonApi = (user) => {
 		fetch(`http://localhost:9000/watsonAPI?username=${user}`)

@@ -27,6 +27,10 @@ body {
   font-weight: 600;
 }
 
+.tweets {
+  text-transform: none;
+}
+
 .footer {
   color: lightgrey;
   font-size: 5px;
@@ -42,6 +46,6 @@ h5 {
   margin-bottom: 1%;
 }
 
-link {
+.toggleLink {
   color: blue
 }

@@ -1,23 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import sample from './../sample.json';
 
 function Twitter(props) {
+  const sortAlpha = (a, b) => {
+    a = a.toLowerCase();
+    b = b.toLowerCase();
 
-  let wordArray = [];
-  props.tweets.join(' ').split(' ').forEach(word => {
-    if (!word.startsWith('http')) {
-      wordArray.push(word);
-    }
-  });
-  //this works, but a lot of punctuation makes it in
-  wordArray.sort();
-  let tweetText = wordArray.join(' ');
+    if (a > b) return 1;
+    if (a < b) return -1;
+  };
+
+  const createWordArray = () => {
+    let wordArray = [];
+    props.tweets.join(' ').split(' ')
+      .filter(word => !word.startsWith('http')).join(' ')
+      .split(/[^a-zA-Z'@#-]/).forEach(word => {
+        wordArray.push(word);
+      });
+
+    return wordArray.sort(sortAlpha).join(' ');
+  };
+
+  let tweetText = createWordArray();
 
   return (
-    <div>
-      <h2>Tweets by @{sample[0].user.name}</h2>
-      <p>
+    <div className="window">
+      <p className="tweets">
         {tweetText}
       </p>
     </div>

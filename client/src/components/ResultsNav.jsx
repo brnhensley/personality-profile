@@ -5,9 +5,7 @@ import Twitter from './Twitter';
 
 function ResultsNav(props) {
     const [status, setStatus] = useState(true);
-    let statusTranslate = ["Personality Analysis", "Tweets"];
-
-    if (false) setStatus(false);
+    let statusTranslate = { true: "Personality Analysis", false: "Tweet History" };
 
     let showing = null;
     if (status) {
@@ -19,8 +17,8 @@ function ResultsNav(props) {
     return (
         <>
             <div className="window">
-                <h2>{statusTranslate} of Twitter user @{props.twitterHandle}</h2>
-                {/* <h3 class="link" onClick={setStatus(!status)}>Click to see tweet history</h3> */}
+                <h2>{statusTranslate[status]} Twitter user @{props.twitterHandle}</h2>
+                <h3 className="toggleLink" onClick={() => setStatus(!status)}>Click to see {statusTranslate[!status]}</h3>
             </div>
             {showing}
         </>
@@ -30,7 +28,7 @@ function ResultsNav(props) {
 ResultsNav.propTypes = {
     twitterHandle: PropTypes.string.isRequired,
     tweets: PropTypes.array.isRequired,
-    watsonResponse: PropTypes.object//.isRequired
+    watsonResponse: PropTypes.object.isRequired
 };
 
 export default ResultsNav;
