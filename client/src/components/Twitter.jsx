@@ -1,39 +1,67 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 function Twitter(props) {
-  const sortAlpha = (a, b) => {
-    a = a.toLowerCase();
-    b = b.toLowerCase();
+    const [wordsUsed, setWordsUsed] = useState([]);
+    const [wordTally, setWordTally] = useState(null);
 
-    if (a > b) return 1;
-    if (a < b) return -1;
-  };
+    const sortAlpha = (a, b) => {
+        a = a.toLowerCase();
+        b = b.toLowerCase();
 
-  const createWordArray = () => {
-    let wordArray = [];
-    props.tweets.join(' ').split(' ')
-      .filter(word => !word.startsWith('http')).join(' ')
-      .split(/[^a-zA-Z'@#-]/).forEach(word => {
-        wordArray.push(word);
-      });
+        if (a > b) return 1;
+        if (a < b) return -1;
+    };
 
-    return wordArray.sort(sortAlpha).join(' ');
-  };
+    const createWordArray = () => { // on componenet mount instead?
+        let wordArray = [];
 
-  let tweetText = createWordArray();
+        let data = props.tweets.join(' ').replaceAll("’", "'");    // string
 
-  return (
-    <div className="window">
-      <p className="tweets">
-        {tweetText}
-      </p>
-    </div>
-  );
+        data = data.split(' ').filter(word => !word.startsWith('http'))    // array
+            .join(' ').split(/[^a-zA-Z0-9'@#-]/);                         // remove junk chars
+
+        wordCounter(data);      // tally all words
+
+        data.forEach(word => {      // create array of significant words
+            if (word.length > 2 || word.toUpperCase() === "I") {
+                wordArray.push(word);
+            }
+        });
+
+        setWordsUsed(wordArray.sort(sortAlpha));
+    };
+
+    const wordCounter = (arr) => {
+        let count = {};
+        arr.forEach(w => {
+            if (w.length > 1 || w === "I") {
+                w = w[0].toUpperCase() + w.slice(1);
+                count[w] = !count[w] ? 1 : count[w] + 1;
+            }
+        });
+
+        setWordTally(count);
+    };
+
+    if (wordsUsed.length === 0) {   // to prevent infinite rerenders
+        createWordArray();
+    }
+
+    console.log(wordTally);
+    console.log(wordsUsed);
+
+    return (
+        <div className="window">
+            <p className="tweets">
+                {wordsUsed.join(' ')}
+            </p>
+        </div>
+    );
 }
 
 Twitter.propTypes = {
-  tweets: PropTypes.array.isRequired
+    tweets: PropTypes.array.isRequired
 };
 
 export default Twitter;

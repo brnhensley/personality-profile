@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function PersonalityBreakdown(props) {
 	const results = props.watsonResponse;
-	console.log(results);
+
 	return (<>
 		{Object.values(results.traits).map((personalityTrait) => {
 			return (
@@ -29,7 +29,6 @@ function PersonalityBreakdown(props) {
 					</h5>
 				);
 			})}
-
 		</div>
 	</>);
 }
