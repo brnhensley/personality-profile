@@ -7,16 +7,24 @@ const UserSearch = () => {
 	const [twitterHandle, setTwitterHandle] = useState('');
 	const [tweets, setTweets] = useState([]);
 
-	const callWatsonApi = (user) => {
-		fetch(`http://localhost:9000/watsonAPI?username=${user}`)
-			.then(profile => profile.json())
-			.then(profile => setWatsonResponse(profile));
-	};
-
 	const callTwitterAPI = (user) => {
 		fetch(`http://localhost:9000/twitterAPI?username=${user}`)
-			.then(tweets => tweets.json())
-			.then(tweets => setTweets(tweets));
+			.then(t => t.json())
+			.then((t) => {
+				setTweets(t);
+				callWatsonApi(t);
+			});
+	};
+
+	const callWatsonApi = (text) => {
+		console.log(text);
+		fetch(`http://localhost:9000/watsonAPI`, {
+			method: 'POST',
+			body: JSON.stringify(text),
+			headers: { "Content-Type": "application/json" }
+		})
+			.then(profile => profile.json())
+			.then(profile => setWatsonResponse(profile));
 	};
 
 	const handleSearchSubmit = (event) => {
@@ -24,7 +32,6 @@ const UserSearch = () => {
 		const user = event.target.twitterHandle.value;
 		setTwitterHandle(user);
 		callTwitterAPI(user);
-		callWatsonApi(user);
 	};
 
 	const search = <div className="window">
@@ -43,7 +50,6 @@ const UserSearch = () => {
 
 	let searchResults = null;
 	if (watsonResponse !== null && twitterHandle !== "") {
-		console.log(watsonResponse);
 		searchResults = <ResultsNav twitterHandle={twitterHandle}
 			tweets={tweets}
 			watsonResponse={watsonResponse} />;

@@ -10,8 +10,9 @@ async function twitterApi(username) {
         timeout_ms: 60 * 1000
     });
 
-    var twitterPath = 'statuses/user_timeline';
-    var twitterOptions = {
+    const twitterPath = 'statuses/user_timeline';
+
+    const twitterOptions = {
         screen_name: username,
         count: 200,
         include_rts: false
@@ -20,6 +21,7 @@ async function twitterApi(username) {
     return new Promise(function (resolve, reject) {
         twit.get(twitterPath, twitterOptions, function (error, data) {
             if (error) return reject(error);
+
             var tweets = [];
             for (var i = 0; i < data.length; i++) {
                 tweets.push(data[i].text);

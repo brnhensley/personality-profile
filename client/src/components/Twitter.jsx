@@ -16,9 +16,8 @@ function Twitter(props) {
     const createWordArray = () => { // on componenet mount instead?
         let wordArray = [];
 
-        let data = props.tweets.join(' ').replaceAll("’", "'");    // string
-
-        data = data.split(' ').filter(word => !word.startsWith('http'))    // array
+        let data = props.tweets.join(' ').replaceAll("’", "'");
+        data = data.split(' ').filter(word => !word.startsWith('http'))
             .join(' ').split(/[^a-zA-Z0-9'@#-]/);                         // remove junk chars
 
         wordCounter(data);      // tally all words
@@ -44,12 +43,11 @@ function Twitter(props) {
         setWordTally(count);
     };
 
+    console.log(wordTally);
+
     if (wordsUsed.length === 0) {   // to prevent infinite rerenders
         createWordArray();
     }
-
-    console.log(wordTally);
-    console.log(wordsUsed);
 
     return (
         <div className="window">
