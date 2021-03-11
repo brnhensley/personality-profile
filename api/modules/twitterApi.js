@@ -15,7 +15,8 @@ async function twitterApi(username) {
     const twitterOptions = {
         screen_name: username,
         count: 200,
-        include_rts: false
+        include_rts: false,
+        trim_user: true
     };
 
     return new Promise(function (resolve, reject) {
@@ -26,6 +27,7 @@ async function twitterApi(username) {
             for (var i = 0; i < data.length; i++) {
                 tweets.push(data[i].text);
             }
+
             resolve(tweets);
         });
     });
