@@ -4,8 +4,6 @@ let router = express.Router();
 const watsonApi = require('../modules/watsonApi');
 
 router.post("/", function (req, res, next) {
-    console.log("fart");
-    console.log(req.body);
     if (req.body) {
         watsonApi(req.body)
             .then((personalityProfile) => {
