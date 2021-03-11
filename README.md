@@ -18,7 +18,6 @@ _The original proposal for this capstone project was to make two API calls- one 
 * _run `npm start` from the `api` directory_
 * _run `npm install` from the `client` directory_
 * _run `npm start` from the `client` directory_
-* _see API Keys for instructions on the .env file_
  * _you'll need to create a Twitter developer account and get the following api credentials to use the app_
 * _create a `.env` file in the `api` directory and put the text from **API Keys** inside_
 * _navigate to http://localhost:3000/_
