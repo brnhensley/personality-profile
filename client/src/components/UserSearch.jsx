@@ -17,7 +17,6 @@ const UserSearch = () => {
 	};
 
 	const callWatsonApi = (text) => {
-		console.log(text);
 		fetch(`http://localhost:9000/watsonAPI`, {
 			method: 'POST',
 			body: JSON.stringify(text),

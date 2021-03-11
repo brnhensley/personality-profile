@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import WordTally from './WordTally';
 
 function Twitter(props) {
     const [wordsUsed, setWordsUsed] = useState([]);
     const [wordTally, setWordTally] = useState(null);
+    const [tallyOrText, setTallyOrText] = useState(true);
 
     const sortAlpha = (a, b) => {
         a = a.toLowerCase();
@@ -18,9 +20,7 @@ function Twitter(props) {
 
         let data = props.tweets.join(' ').replaceAll("’", "'");
         data = data.split(' ').filter(word => !word.startsWith('http'))
-            .join(' ').split(/[^a-zA-Z0-9'@#-]/);                         // remove junk chars
-
-        wordCounter(data);      // tally all words
+            .join(' ').split(/[^a-zA-Z0-9'@#_-]/);        // remove junk chars
 
         data.forEach(word => {      // create array of significant words
             if (word.length > 2 || word.toUpperCase() === "I") {
@@ -28,32 +28,38 @@ function Twitter(props) {
             }
         });
 
-        setWordsUsed(wordArray.sort(sortAlpha));
+        wordArray = wordArray.sort(sortAlpha);
+        wordCounter(wordArray);
+        setWordsUsed(wordArray);
     };
 
     const wordCounter = (arr) => {
         let count = {};
         arr.forEach(w => {
-            if (w.length > 1 || w === "I") {
-                w = w[0].toUpperCase() + w.slice(1);
-                count[w] = !count[w] ? 1 : count[w] + 1;
-            }
+            w = w[0].toUpperCase() + w.slice(1);
+            count[w] = !count[w] ? 1 : count[w] + 1;
         });
 
         setWordTally(count);
     };
 
-    console.log(wordTally);
-
     if (wordsUsed.length === 0) {   // to prevent infinite rerenders
         createWordArray();
     }
 
+    let output = null;
+    if (tallyOrText) {
+        output = <p>{wordsUsed.join(' ')}</p>;
+    } else {
+        output = <WordTally tally={wordTally} />;
+    }
+
     return (
         <div className="window">
-            <p className="tweets">
-                {wordsUsed.join(' ')}
-            </p>
+            <h3 className="toggleLink" onClick={() => setTallyOrText(!tallyOrText)}>
+                Click to see {tallyOrText ? "a tally of words used" : "a list of words used"}
+            </h3>
+            <div className="tweets">{output}</div>
         </div>
     );
 }

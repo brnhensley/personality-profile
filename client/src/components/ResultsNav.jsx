@@ -18,7 +18,9 @@ function ResultsNav(props) {
         <>
             <div className="window">
                 <h2>{statusTranslate[status]} Twitter user @{props.twitterHandle}</h2>
-                <h3 className="toggleLink" onClick={() => setStatus(!status)}>Click to see {statusTranslate[!status]}</h3>
+                <h3 className="toggleLink" onClick={() => setStatus(!status)}>
+                    Click to see {statusTranslate[!status]}
+                </h3>
             </div>
             {showing}
         </>
