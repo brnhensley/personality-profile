@@ -10,7 +10,7 @@ function WordTally(props) {
     const sortAlpha = () => {
         setWords(words.slice(0).sort((a, b) => {        // .slice to fix the shallow clone problem of mutating state
             if (a[0].toLowerCase() > b[0].toLowerCase()) return 1;
-            if (b[0].toLowerCase() < b[0].toLowerCase()) return -1;
+            if (a[0].toLowerCase() < b[0].toLowerCase()) return -1;
         }));
     };
 

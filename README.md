@@ -18,15 +18,27 @@ _The original proposal for this capstone project was to make two API calls- one 
 * _run `npm start` from the `api` directory_
 * _run `npm install` from the `client` directory_
 * _run `npm start` from the `client` directory_
+* _see API Keys for instructions on the .env file_
+ * _you'll need to create a Twitter developer account and get the following api credentials to use the app_
+* _create a `.env` file in the `api` directory and put the text from **API Keys** inside_
 * _navigate to http://localhost:3000/_
 * _enter a Twitter handle in the search field and get your results_
+
+## _API Keys_
+
+ ```
+CONSUMER_KEY=<your Twitter consumer key>
+CONSUMER_SECRET=<your Twitter consumer secret>
+ACCESS_TOKEN_KEY=<your Twitter access token key>
+ACCESS_TOKEN_SECRET=<your Twitter access token secret>
+```
 
 ## _Original Component Plan_
 ![ss1](https://github.com/brnhensley/personality-profile/blob/master/comptree.png)
 
 ## _Known Bugs_
 
-* _Sometimes the page won't update with the new data after making a second API call, it will need to be refreshed._
+* _No known bugs_
 
 ## _Support and contact details_
 
@@ -34,7 +46,7 @@ Create a pull request on GitHub.
 
 ## _Technologies Used_
 
-I used React, Javascript, Node, WebPack, Express, Watson API, HTML, CSS, and DuckDuckGo to build this program.
+I used React, Javascript, Node, Express, Twitter API, Watson API, HTML, CSS, and DuckDuckGo to build this program.
 
 ### _License_
 
