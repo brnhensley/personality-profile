@@ -13,7 +13,7 @@ _The original proposal for this capstone project was to make two API calls- one 
 
 ## _Setup/Installation Requirements_
 
-* _Unfortunately IBM has depreciated the api that this app depends on and will no longer provide new API credentials.  For now the only way to use this app would be to contact me directly._
+* _Unfortunately IBM has deprecated the api that this app depends on and will no longer provide new API credentials.  For now the only way to use this app would be to contact me directly._
 
 ## _Original Component Plan_
 ![ss1](https://github.com/brnhensley/personality-profile/blob/master/comptree.png)
