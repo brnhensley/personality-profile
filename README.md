@@ -13,24 +13,7 @@ _The original proposal for this capstone project was to make two API calls- one 
 
 ## _Setup/Installation Requirements_
 
-* _Clone repo_
-* _run `npm install` from the `api` directory_
-* _run `npm start` from the `api` directory_
-* _run `npm install` from the `client` directory_
-* _run `npm start` from the `client` directory_
- * _you'll need to create a Twitter developer account and get the following api credentials to use the app_
-* _create a `.env` file in the `api` directory and put the text from **API Keys** inside_
-* _navigate to http://localhost:3000/_
-* _enter a Twitter handle in the search field and get your results_
-
-## _API Keys_
-
- ```
-CONSUMER_KEY=<your Twitter consumer key>
-CONSUMER_SECRET=<your Twitter consumer secret>
-ACCESS_TOKEN_KEY=<your Twitter access token key>
-ACCESS_TOKEN_SECRET=<your Twitter access token secret>
-```
+* _Unfortunately IBM has depreciated the api that this app depends on and will no longer provide new API credentials.  For now the only way to use this app would be to contact me directly._
 
 ## _Original Component Plan_
 ![ss1](https://github.com/brnhensley/personality-profile/blob/master/comptree.png)

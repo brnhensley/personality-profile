@@ -1,5 +1,6 @@
 module.exports = twitterApi;
 const Twitter = require('twit');
+require('dotenv').config();
 
 async function twitterApi(username) {
     const twit = new Twitter({
